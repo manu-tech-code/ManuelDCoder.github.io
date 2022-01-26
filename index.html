@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Wire+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <!-- fonts -->
 
@@ -26,93 +27,139 @@
 </head>
 <body class="">
     <!-- Hero -->
-        <div class="containerfluid border border-danger bg-danger"">
-        <div class="col">
-                <div class="col-md-1">
-                    <img class="mt-2" src="./assets/images/Fox FM LOGO.png" alt="foxfmtakoradilog" style="width: 150%;">
-                </div>
-                <div class="col-md-3 float-end me-5 mt-3 bg-warning " style="margin-left: rem;">
-                    <div class="card bg-danger py-3 border text-end" 
-                        style="font-family: 'Wire One', sans-serif; 
-                        text-transform: uppercase; color: white; font-size: 8.2vw; line-height: .6;
-                        text-shadow: 0px 5px 5px rgb(41 18 11 / 93%);">
-                        <p>
-                            fox 103.1 fm
-                        </p>
-                        <p>
-                            takoradi
-                        </p>
-                        <p>
-                            we are
-                        </p>
-                        <p>
-                            live
-                        </p>
-                        <p class="mt-1 me-2" style="font-size: 3vw ;">
-                            06:00 - 23:00
-                        </p>
+        <div class="container-fluid px-5 pt-4 bg-danger">
+            <div class="row overflow-hidden mx-5">
+                    <div class="row col-md-4 m-0 p-0">
+                        <div class="col-md-4 m-0 p-0 ">
+                            <img src="./assets/images/Fox FM LOGO.png" alt="foxfmtakoradilog" style="width: 150%;">
+                        </div>
                     </div>
-                </div>
+                    <div class="row mt-3 justify-content-end p-0 m-0 ">
+                        <div class="col-md-4 border border-2 py-3 text-end p-0" 
+                        style="font-family: 'Wire One', sans-serif; 
+                        text-transform: uppercase; color: white; font-size: 7.2vw; 
+                        line-height: .6; text-shadow: 0px 5px 5px rgb(41 18 11 / 93%);">
+                           
+                            <p>
+                                fox 103.1 fm
+                            </p>
+                            <p>
+                                takoradi
+                            </p>
+                            <p>
+                                we are
+                            </p>
+                            <p>
+                                live
+                            </p>
+                            <p class="mt-5 me-2" style="font-size: 3vw ;">
+                                06:00 - 23:00
+                            </p>
+                        </div>
+                        
+                    </div>
 
-                <!-- Live Radio -->
-                <div class="col-md-3 ms-md-5 mb-2 mt-5 bg-warning" style="margin-top: 30rem!important;">
-                    <audio autoplay="autoplay" controls="controls" style="display: block; margin-left: auto; margin-right: auto;" type="audio/mpeg" __idm_id__="10174465"> Your browser does not support the audio element.
-                        <source src="https://atunwadigital.streamguys1.com/foxfmtakoradi" type="audio/mpeg">
-                    </audio>      
-                </div>
-                <!-- Live Radio End -->
-               
+                    <!-- Live Radio -->
+                        <div class="row position-relative justify-content-center my-4 p-0 m-0">
+                            <!-- <div class="box position-absolute-top--bottom-3 border">
 
-        </div>
+                            </div> -->
+                            <div class="col-md-7 py-2 d-flex align-items-center justify-content-center border border-2">
+                                <p class="text-uppercase px-3 pt-2 me-md-5 text-white" style="letter-spacing: .2rem; font-size: 3vw; font-family: 'Wire One', sans-serif;">
+                                    live radio
+                                </p>
+                                <audio autoplay="autoplay" controls="controls" style="display: block;" type="audio/mpeg"
+                                    __idm_id__="10174465"> Your browser does not support the audio element.
+                                    <source src="https://atunwadigital.streamguys1.com/foxfmtakoradi" type="audio/mpeg">
+                                </audio>
+                            </div>
+                        </div>
+                    <!-- Live Radio End -->
+                
+
+            </div>
         </div>
     <!-- Hero End-->
 
 
     <!-- Header -->
-        <header class="p-3 bg-dark text-white">
-            <div class="container">
-                <header class="d-flex flex-wrap justify-content-center">
-                  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                    <div class="fox-logo text-center" style="font-family: 'Ubuntu Mono', monospace;">
-                        <p class="fs-2 my-0 mx-0">
+        <!-- <header class="p-3 bg-dark text-white"> -->
+            <div class="container-fluid px-5" style="background-color: rgba(40, 40, 40, 0.829)">
+                <header class="d-flex mx-5 flex-wrap align-items-center justify-content-center">
+                  <a href="./index.html" class="d-flex border border-dark align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <div class="fox-logo text-center" style="font-family: 'Ubuntu Condensed', monospace;">
+                        <p class="fs-2 m-0">
                             FOX FM
                         </p>
-                        <!-- <span class="fs-4"></span> -->
-                        <span class="my-0">
-                            CROKCDO
+                        <span class="m-0">
+                            OROKODO
                         </span>
                     </div>
                   </a>
             
-                  <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">videos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">sports</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">programs</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">gallery</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">entertainment</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">contact us</a></li>
+                  <ul class="nav nav-pills" style="font-family: 'Ubuntu Condensed', monospace;">
+                    <li class="nav-item"><a href="#" class="text-white text-uppercase nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="#" class="text-white text-uppercase nav-link">videos</a></li>
+                    <li class="nav-item"><a href="#" class="text-white text-uppercase nav-link">sports</a></li>
+                    <li class="nav-item"><a href="#" class="text-white text-uppercase nav-link">programs</a></li>
+                    <li class="nav-item"><a href="#" class="text-white text-uppercase nav-link">gallery</a></li>
+                    <li class="nav-item"><a href="#" class="text-white text-uppercase nav-link">entertainment</a></li>
+                    <li class="nav-item"><a href="#" class="text-white text-uppercase nav-link">contact us</a></li>
                   </ul>
                 </header>
               </div>
-        </header>
+        <!-- </header> -->
     <!-- Header End -->
 
     <!-- News Feed-->
-    <div class="container-fluid bg-dark border border-danger">
+    <div class="container-fluid px-5 bg-dark overflow-hidden border border-danger" style="background-: rgb(40,40,40) !important;">
         <!-- Youtube Video -->
-        <div class="row bg-secondary">
-            <div class="col-md-4 bg-warning">
-                <div class="youtube">
-                    <iframe width="853" height="480" src="https://www.youtube.com/embed/ew_NPwL9Ql4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="container p-0 m-0 border border-dark">
+                <div class="row px-3 mx-3 border border-warning my-3 bg-">
+                    <iframe width="800" height="480" src="https://www.youtube.com/embed/ew_NPwL9Ql4" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; 
+                        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
                 </div>
             </div>
-        </div>
         <!-- Youtube Video End -->
-        <div class="row bg-primary">
-            news
-        </div>
+
+        <!-- Top News -->
+           <div class="container px-5 border border-danger p-0 m-0">
+            <div class="row bg p-0 m-0">
+                <div class="col-md-3 me-2 border border-danger bg-white">
+                    <div class="card overflow-hidden">
+                        <p class="text-capitalize text-center py-3 fs-4" style="font-family: 'Ubuntu', sans-serif;">
+                            Top stories
+                        </p>
+                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ErHhXrqkvfs" title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                        
+                        <!-- Headline -->
+                            <p class="border border-danger mt-2">
+                                THE NEWSPAPERS REVIEW SEGMENT ON YOUR NO. 1 POLITICAL SHOW #EBOBOBA
+                                <br>
+                                <span class="text-end text-secondary"> 
+                                    Jan 25, 2022
+                                </span>
+                            </p>
+                        <!-- Headline End -->
+                    </div>
+                </div>
+                <div class="col me-2 border border-danger">
+                    <div class="card">
+                        <p class="py-3 fs-4 text-center text-capitalize" style="font-family: 'Ubuntu', sans-serif;">
+                            trending news
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 border border-danger">
+                    tags
+                </div>
+            </div>
+           </div>
+        <!-- Top News End -->
 
         <div class="row bg-warning">
             categories
